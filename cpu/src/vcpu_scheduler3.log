@@ -1,0 +1,195 @@
+Script started on 2022-09-27 00:42:42+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="83" LINES="13"]
+]0;vagrant@vagrant: /vagrant/cpu/test[01;32mvagrant@vagrant[00m:[01;34m/vagrant/cpu/test[00m$ exitpython monitor.py -t runtest2.py[1P.py3.py
+
+--------------------------------------------------
+Iteration number :  1
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+
+--------------------------------------------------
+Iteration number :  2
+0 - usage: 99.0 | mapping ['aos_vm1', 'aos_vm6']
+1 - usage: 56.99999999999999 | mapping ['aos_vm8']
+2 - usage: 67.0 | mapping ['aos_vm4', 'aos_vm5']
+3 - usage: 99.0 | mapping ['aos_vm7', 'aos_vm3', 'aos_vm2']
+
+--------------------------------------------------
+Iteration number :  3
+0 - usage: 99.0 | mapping ['aos_vm1', 'aos_vm6']
+1 - usage: 101.0 | mapping ['aos_vm8']
+2 - usage: 98.0 | mapping ['aos_vm4', 'aos_vm5']
+3 - usage: 102.0 | mapping ['aos_vm7', 'aos_vm3', 'aos_vm2']
+
+--------------------------------------------------
+Iteration number :  4
+0 - usage: 100.0 | mapping ['aos_vm1', 'aos_vm6']
+1 - usage: 99.0 | mapping ['aos_vm8']
+2 - usage: 99.0 | mapping ['aos_vm4', 'aos_vm5']
+3 - usage: 100.0 | mapping ['aos_vm7', 'aos_vm3', 'aos_vm2']
+
+--------------------------------------------------
+Iteration number :  5
+0 - usage: 99.0 | mapping ['aos_vm1', 'aos_vm6']
+1 - usage: 99.0 | mapping ['aos_vm8']
+2 - usage: 98.0 | mapping ['aos_vm4', 'aos_vm5']
+3 - usage: 101.0 | mapping ['aos_vm7', 'aos_vm3', 'aos_vm2']
+
+--------------------------------------------------
+Iteration number :  6
+0 - usage: 681.0 | mapping ['aos_vm8', 'aos_vm3', 'aos_vm5']
+1 - usage: 284.0 | mapping ['aos_vm2']
+2 - usage: 595.9999999999999 | mapping ['aos_vm1', 'aos_vm4', 'aos_vm6']
+3 - usage: 263.0 | mapping ['aos_vm7']
+
+--------------------------------------------------
+Iteration number :  7
+0 - usage: 95.0 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 87.0 | mapping ['aos_vm2']
+2 - usage: 110.99999999999999 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 102.0 | mapping ['aos_vm4', 'aos_vm7']
+
+--------------------------------------------------
+Iteration number :  8
+0 - usage: 112.00000000000001 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 85.0 | mapping ['aos_vm2']
+2 - usage: 99.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 98.0 | mapping ['aos_vm4', 'aos_vm7']
+
+--------------------------------------------------
+Iteration number :  9
+0 - usage: 99.0 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 131.99999999999997 | mapping ['aos_vm7', 'aos_vm2']
+2 - usage: 99.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 68.0 | mapping ['aos_vm4']
+
+--------------------------------------------------
+Iteration number :  10
+0 - usage: 99.0 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 82.0 | mapping ['aos_vm2']
+2 - usage: 99.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 117.0 | mapping ['aos_vm4', 'aos_vm7']
+
+--------------------------------------------------
+Iteration number :  11
+0 - usage: 99.0 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 98.0 | mapping ['aos_vm2']
+2 - usage: 100.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 99.0 | mapping ['aos_vm4', 'aos_vm7']
+
+--------------------------------------------------
+Iteration number :  12
+0 - usage: 98.0 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 98.0 | mapping ['aos_vm2']
+2 - usage: 102.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 101.0 | mapping ['aos_vm4', 'aos_vm7']
+bash: /home/ubuntu/cpu/test/testcases/3/iambusy: No such file or directory
+
+--------------------------------------------------
+Iteration number :  13
+0 - usage: 99.0 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 56.00000000000001 | mapping ['aos_vm7']
+2 - usage: 99.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 142.0 | mapping ['aos_vm4', 'aos_vm2']
+
+--------------------------------------------------
+Iteration number :  14
+0 - usage: 99.0 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 98.0 | mapping ['aos_vm7', 'aos_vm2']
+2 - usage: 101.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 98.0 | mapping ['aos_vm4']
+
+--------------------------------------------------
+Iteration number :  15
+0 - usage: 99.0 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 99.0 | mapping ['aos_vm7', 'aos_vm2']
+2 - usage: 100.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 98.0 | mapping ['aos_vm4']
+
+--------------------------------------------------
+Iteration number :  16
+0 - usage: 100.0 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 100.0 | mapping ['aos_vm7', 'aos_vm2']
+2 - usage: 100.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 100.0 | mapping ['aos_vm4']
+
+--------------------------------------------------
+Iteration number :  17
+0 - usage: 100.0 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 98.0 | mapping ['aos_vm7', 'aos_vm2']
+2 - usage: 101.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 98.0 | mapping ['aos_vm4']
+
+--------------------------------------------------
+Iteration number :  18
+0 - usage: 99.0 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 99.0 | mapping ['aos_vm7', 'aos_vm2']
+2 - usage: 99.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 100.0 | mapping ['aos_vm4']
+
+--------------------------------------------------
+Iteration number :  19
+0 - usage: 100.0 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 98.0 | mapping ['aos_vm7', 'aos_vm2']
+2 - usage: 101.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 99.0 | mapping ['aos_vm4']
+bash: /home/ubuntu/cpu/test/testcases/3/iambusy: No such file or directory
+
+--------------------------------------------------
+Iteration number :  20
+0 - usage: 99.0 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 100.0 | mapping ['aos_vm7', 'aos_vm2']
+2 - usage: 102.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 98.0 | mapping ['aos_vm4']
+bash: /home/ubuntu/cpu/test/testcases/3/iambusy: No such file or directory
+
+--------------------------------------------------
+Iteration number :  21
+0 - usage: 100.0 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 97.0 | mapping ['aos_vm7', 'aos_vm2']
+2 - usage: 100.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 99.0 | mapping ['aos_vm4']
+
+--------------------------------------------------
+Iteration number :  22
+0 - usage: 28.000000000000004 | mapping ['aos_vm8', 'aos_vm5']
+1 - usage: 100.0 | mapping ['aos_vm7', 'aos_vm2']
+2 - usage: 101.0 | mapping ['aos_vm1', 'aos_vm3', 'aos_vm6']
+3 - usage: 98.0 | mapping ['aos_vm4']
+bash: /home/ubuntu/cpu/test/testcases/3/iambusy: No such file or directory
+bash: /home/ubuntu/cpu/test/testcases/3/iambusy: No such file or directory
+
+--------------------------------------------------
+Iteration number :  23
+0 - usage: 68.0 | mapping ['aos_vm8', 'aos_vm3', 'aos_vm5']
+1 - usage: 99.0 | mapping ['aos_vm7', 'aos_vm2']
+2 - usage: 89.0 | mapping ['aos_vm1', 'aos_vm6']
+3 - usage: 84.0 | mapping ['aos_vm4']
+
+--------------------------------------------------
+Iteration number :  24
+0 - usage: 1.0 | mapping ['aos_vm8', 'aos_vm3', 'aos_vm5']
+1 - usage: 98.0 | mapping ['aos_vm7']
+2 - usage: 100.0 | mapping ['aos_vm1', 'aos_vm6']
+3 - usage: 0.0 | mapping ['aos_vm4', 'aos_vm2']
+bash: /home/ubuntu/cpu/test/testcases/3/iambusy: No such file or directory
+bash: /home/ubuntu/cpu/test/testcases/3/iambusy: No such file or directory
+
+--------------------------------------------------
+Iteration number :  25
+0 - usage: 0.0 | mapping ['aos_vm8', 'aos_vm3', 'aos_vm5']
+1 - usage: 100.0 | mapping ['aos_vm7']
+2 - usage: 78.0 | mapping ['aos_vm6']
+3 - usage: 79.0 | mapping ['aos_vm1', 'aos_vm4', 'aos_vm2']
+bash: /home/ubuntu/cpu/test/testcases/3/iambusy: No such file or directory
+]0;vagrant@vagrant: /vagrant/cpu/test[01;32mvagrant@vagrant[00m:[01;34m/vagrant/cpu/test[00m$ iambusy: no process found
+iambusy: no process found
+iambusy: no process found
+iambusy: no process found
+iambusy: no process found
+^C
+]0;vagrant@vagrant: /vagrant/cpu/test[01;32mvagrant@vagrant[00m:[01;34m/vagrant/cpu/test[00m$ exit
+exit
+
+Script done on 2022-09-27 00:43:34+00:00 [COMMAND_EXIT_CODE="130"]

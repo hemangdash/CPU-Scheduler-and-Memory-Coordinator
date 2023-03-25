@@ -1,0 +1,283 @@
+Script started on 2022-09-13 15:30:19+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="187" LINES="13"]
+]0;vagrant@vagrant: /vagrant[01;32mvagrant@vagrant[00m:[01;34m/vagrant[00m$ [K]0;vagrant@vagrant: /vagrant[01;32mvagrant@vagrant[00m:[01;34m/vagrant[00m$ [K]0;vagrant@vagrant: /vagrant[01;32mvagrant@vagrant[00m:[01;34m/vagrant[00m$ cd memr[Kory
+]0;vagrant@vagrant: /vagrant/memory[01;32mvagrant@vagrant[00m:[01;34m/vagrant/memory[00m$ cd test
+]0;vagrant@vagrant: /vagrant/memory/test[01;32mvagrant@vagrant[00m:[01;34m/vagrant/memory/test[00m$ python3 monitor.py -t runtest1.py 
+
+--------------------------------------------------
+Iteration number :  1
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.69140625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.16015625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.92578125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.4765625]
+
+--------------------------------------------------
+Iteration number :  2
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.69140625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.16015625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.92578125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.4765625]
+
+--------------------------------------------------
+Iteration number :  3
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.69140625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.16015625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.92578125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.4765625]
+
+--------------------------------------------------
+Iteration number :  4
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.69140625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.16015625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.92578125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.4765625]
+
+--------------------------------------------------
+Iteration number :  5
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.69140625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.16015625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.92578125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.4765625]
+libvirt: QEMU Driver error : invalid argument: cannot set memory higher than max memory
+Traceback (most recent call last):
+  File "runtest1.py", line 13, in <module>
+    manager.setAllVmsMemoryWithFilter(VM_PREFIX,512)
+  File "/vagrant/vm.py", line 100, in setAllVmsMemoryWithFilter
+    self.setMemory(vmName,newMemory)
+  File "/vagrant/vm.py", line 81, in setMemory
+    vm.setMemory(memory*1024)
+  File "/usr/lib/python3/dist-packages/libvirt.py", line 2457, in setMemory
+    if ret == -1: raise libvirtError ('virDomainSetMemory() failed', dom=self)
+libvirt.libvirtError: invalid argument: cannot set memory higher than max memory
+
+--------------------------------------------------
+Iteration number :  6
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.72265625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.16015625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.95703125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.4765625]
+
+--------------------------------------------------
+Iteration number :  7
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.72265625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.16015625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.95703125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.4765625]
+
+--------------------------------------------------
+Iteration number :  8
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.72265625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.16015625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.95703125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.5078125]
+
+--------------------------------------------------
+Iteration number :  9
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.72265625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.16015625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.95703125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.5078125]
+
+--------------------------------------------------
+Iteration number :  10
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.72265625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.16015625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.95703125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.5078125]
+
+--------------------------------------------------
+Iteration number :  11
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.72265625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.16015625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.95703125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.5078125]
+
+--------------------------------------------------
+Iteration number :  12
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.72265625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.16015625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.95703125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.5078125]
+
+--------------------------------------------------
+Iteration number :  13
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.72265625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.16015625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.95703125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.5078125]
+
+--------------------------------------------------
+Iteration number :  14
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.72265625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.19140625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.95703125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.5078125]
+
+--------------------------------------------------
+Iteration number :  15
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.72265625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.19140625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.95703125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.5078125]
+
+--------------------------------------------------
+Iteration number :  16
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.72265625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.19140625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.95703125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.5078125]
+
+--------------------------------------------------
+Iteration number :  17
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.72265625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.19140625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.95703125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.5078125]
+
+--------------------------------------------------
+Iteration number :  18
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.72265625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.19140625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.95703125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.5078125]
+^CTraceback (most recent call last):
+  File "monitor.py", line 66, in <module>
+    s.run()
+  File "/usr/lib/python3.8/sched.py", line 149, in run
+    delayfunc(time - now)
+KeyboardInterrupt
+
+]0;vagrant@vagrant: /vagrant/memory/test[01;32mvagrant@vagrant[00m:[01;34m/vagrant/memory/test[00m$ ./makeall.sh 
+make: Nothing to be done for 'all'.
+make: Nothing to be done for 'all'.
+make: Nothing to be done for 'all'.
+]0;vagrant@vagrant: /vagrant/memory/test[01;32mvagrant@vagrant[00m:[01;34m/vagrant/memory/test[00m$ cd ..
+]0;vagrant@vagrant: /vagrant/memory[01;32mvagrant@vagrant[00m:[01;34m/vagrant/memory[00m$ mak[K[K[Kc [Kd src
+]0;vagrant@vagrant: /vagrant/memory/src[01;32mvagrant@vagrant[00m:[01;34m/vagrant/memory/src[00m$ make all
+gcc -g -Wall memory_coordinator.c -o memory_coordinator -lvirt
+[01m[Kmemory_coordinator.c:[m[K In function ‘[01m[Kcreate_vm_list[m[K’:
+[01m[Kmemory_coordinator.c:132:16:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Kvm_t *[m[K’ {aka ‘[01m[Kstruct vm *[m[K’} from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+  132 |  if ((*vm_list [01;35m[K=[m[K malloc(domain_count * sizeof(vm_t)) == NULL) {
+      |                [01;35m[K^[m[K
+[01m[Kmemory_coordinator.c:132:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+  132 |  if [34m[K([m[K(*vm_list = malloc(domain_count * sizeof(vm_t)) == NULL)[01;31m[K [m[K[32m[K{[m[K
+      |     [34m[K~[m[K                                                        [01;31m[K^[m[K[32m[K~[m[K
+      |                                                              [32m[K)[m[K
+[01m[Kmemory_coordinator.c:197:1:[m[K [01;31m[Kerror: [m[Kexpected expression before ‘[01m[K}[m[K’ token
+  197 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[Kmemory_coordinator.c:129:3:[m[K [01;31m[Kerror: [m[Klabel ‘[01m[Kend[m[K’ used but not defined
+  129 |   [01;31m[Kgoto[m[K end;
+      |   [01;31m[K^~~~[m[K
+[01m[Kmemory_coordinator.c:125:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kunused[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  125 |  unsigned long long [01;35m[Kunused[m[K = 0;
+      |                     [01;35m[K^~~~~~[m[K
+[01m[Kmemory_coordinator.c:124:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kactual_balloon[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  124 |  unsigned long long [01;35m[Kactual_balloon[m[K = 0;
+      |                     [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[Kmemory_coordinator.c:123:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kavailable[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  123 |  unsigned long long [01;35m[Kavailable[m[K = 0;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[Kmemory_coordinator.c:122:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  122 |  unsigned long [01;35m[Kmax[m[K = 0;
+      |                [01;35m[K^~~[m[K
+[01m[Kmemory_coordinator.c:121:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_vm[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  121 |  vm_t* [01;35m[Knew_vm[m[K = NULL;
+      |        [01;35m[K^~~~~~[m[K
+[01m[Kmemory_coordinator.c:120:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstats[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  120 |  virDomainMemoryStatPtr [01;35m[Kstats[m[K = NULL;
+      |                         [01;35m[K^~~~~[m[K
+[01m[Kmemory_coordinator.c:118:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdomain_id[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  118 |  unsigned int [01;35m[Kdomain_id[m[K = 0;
+      |               [01;35m[K^~~~~~~~~[m[K
+[01m[Kmemory_coordinator.c:116:6:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresult[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  116 |  int [01;35m[Kresult[m[K = -1;
+      |      [01;35m[K^~~~~~[m[K
+[01m[Kmemory_coordinator.c:197:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  197 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+make: *** [Makefile:4: compile] Error 1
+]0;vagrant@vagrant: /vagrant/memory/src[01;32mvagrant@vagrant[00m:[01;34m/vagrant/memory/src[00m$ make all
+gcc -g -Wall memory_coordinator.c -o memory_coordinator -lvirt
+[01m[Kmemory_coordinator.c:[m[K In function ‘[01m[Kcreate_vm_list[m[K’:
+[01m[Kmemory_coordinator.c:132:15:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Kvm_t *[m[K’ {aka ‘[01m[Kstruct vm *[m[K’} from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+  132 |  if (*vm_list [01;35m[K=[m[K malloc(domain_count * sizeof(vm_t)) == NULL) {
+      |               [01;35m[K^[m[K
+[01m[Kmemory_coordinator.c:132:6:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K-Wparentheses[m[K]
+  132 |  if ([01;35m[K*[m[Kvm_list = malloc(domain_count * sizeof(vm_t)) == NULL) {
+      |      [01;35m[K^[m[K
+]0;vagrant@vagrant: /vagrant/memory/src[01;32mvagrant@vagrant[00m:[01;34m/vagrant/memory/src[00m$ make all
+gcc -g -Wall memory_coordinator.c -o memory_coordinator -lvirt
+]0;vagrant@vagrant: /vagrant/memory/src[01;32mvagrant@vagrant[00m:[01;34m/vagrant/memory/src[00m$ make all[Kcd t[K..
+]0;vagrant@vagrant: /vagrant/memory[01;32mvagrant@vagrant[00m:[01;34m/vagrant/memory[00m$ cd test
+]0;vagrant@vagrant: /vagrant/memory/test[01;32mvagrant@vagrant[00m:[01;34m/vagrant/memory/test[00m$ cd test[2P..make all[2Pcd src[1P.../makeall.sh [21@python3 monitor.py -t runtest1.py[C
+
+--------------------------------------------------
+Iteration number :  1
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.66015625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.09765625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.83203125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.640625]
+
+--------------------------------------------------
+Iteration number :  2
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.66015625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.09765625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.83203125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.640625]
+
+--------------------------------------------------
+Iteration number :  3
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.66015625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.09765625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.83203125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.640625]
+
+--------------------------------------------------
+Iteration number :  4
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.66015625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.09765625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.86328125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.640625]
+
+--------------------------------------------------
+Iteration number :  5
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.66015625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.09765625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.86328125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.640625]
+libvirt: QEMU Driver error : invalid argument: cannot set memory higher than max memory
+Traceback (most recent call last):
+  File "runtest1.py", line 13, in <module>
+    manager.setAllVmsMemoryWithFilter(VM_PREFIX,512)
+  File "/vagrant/vm.py", line 100, in setAllVmsMemoryWithFilter
+    self.setMemory(vmName,newMemory)
+  File "/vagrant/vm.py", line 81, in setMemory
+    vm.setMemory(memory*1024)
+  File "/usr/lib/python3/dist-packages/libvirt.py", line 2457, in setMemory
+    if ret == -1: raise libvirtError ('virDomainSetMemory() failed', dom=self)
+libvirt.libvirtError: invalid argument: cannot set memory higher than max memory
+
+--------------------------------------------------
+Iteration number :  6
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.66015625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.09765625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.86328125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.640625]
+
+--------------------------------------------------
+Iteration number :  7
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.66015625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.09765625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.86328125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.640625]
+
+--------------------------------------------------
+Iteration number :  8
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [58.66015625]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [42.09765625]
+Memory (VM: aos_vm2)  Actual [256.0], Unused: [52.86328125]
+Memory (VM: aos_vm4)  Actual [256.0], Unused: [54.640625]
+
+--------------------------------------------------
+Iteration number :  9
+Memory (VM: aos_vm3)  Actual [256.0], Unused: [5
